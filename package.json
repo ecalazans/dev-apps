@@ -1,0 +1,14 @@
+{
+  "name": "dev-apps",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-comissao": "node ./src/apps/calculate.commission.js",
+    "start-juros": "node ./src/apps/calculate.interest.js",
+    "start-inventario": "node ./src/apps/move.inventory.js"
+  },
+  "author": "Erick D.C",
+  "license": "ISC"
+}
